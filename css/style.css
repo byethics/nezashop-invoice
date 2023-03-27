@@ -1,0 +1,19 @@
+.navbar li a {
+  color: black;
+  text-decoration: none;
+}
+section {
+  height: 400px;
+}
+ul {
+  justify-content: space-between;
+}
+
+a {
+  text-transform: lowercase !important;
+  text-decoration: none !important;
+}
+
+body {
+  color: whitesmoke;
+}

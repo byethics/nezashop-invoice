@@ -2,8 +2,8 @@
 require_once("partials/header.php");
 require_once("lib/functions.php");
 require_once("lib/mysqli.php");
-$user = filter_input(INPUT_POST, 'usn', FILTER_SANITIZE_SPECIAL_CHARS);
-$pass = filter_input(INPUT_POST, 'psw', FILTER_DEFAULT);
+$user = sanitize($_POST['usn']);
+$pass = sanitize($_POST['psw']);
 $stmt = db()->prepare("SELECT * FROM Users WHERE Username=? AND password=?");
 $stmt->bind_param("ss", $user, $pass);
 $stmt->execute();

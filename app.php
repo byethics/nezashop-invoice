@@ -1,13 +1,6 @@
 <?php
 require_once("lib/functions.php");
-
-if (isset($_POST['add-customer'])) {
-    $customer = mysqli_real_escape_string($conn, $_POST['names']);
-    $sql = mysqli_query($conn, "INSERT INTO Customers values(null,'$customer')") or die("failled");
-    if ($sql) {
-        echo "<script>alert('user added'); location.href='customers.php';</script>";
-    }
-}
+require_once("lib/mysqli.php");
 
 if (isset($_POST['signup'])) {
     $usn = mysqli_real_escape_string($conn, $_POST['usn']);

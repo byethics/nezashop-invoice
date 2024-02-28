@@ -1,6 +1,5 @@
 <?php
   include_once("./partials/header.php");
-  include_once("./config/conn.php");
   include_once("./config/auth.php");
 
 ?>

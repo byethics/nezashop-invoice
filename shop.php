@@ -12,7 +12,6 @@ if (!isset($_SESSION['ponumber'])) {
     $res = "p" . date("dmy-h:m:s") . "-" . rand(0, 50);
     $_SESSION['ponumber'] = $res;
 }
-include_once("./config/conn.php");
 include_once("./config/auth.php");
 
 ?>

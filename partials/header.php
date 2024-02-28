@@ -15,7 +15,7 @@
 <body class="bg-dark">
 <div class="text-light text-center bg-success">
         <div class="container py-4 d-flex justify-content-between">
-<a href="/uwi" class="fs-4">
+<a href=" " class="fs-4">
 
   NEZA SUPERMARKET SYSTEM 
 </a>

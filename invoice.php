@@ -3,7 +3,6 @@ include_once("./partials/header.php");
 if (isset($_GET['invno']))
     $_SESSION['ponumber'] = $_GET['invno'];
 include_once("./config/auth.php");
-include_once("./config/conn.php");
 
 
 ?>

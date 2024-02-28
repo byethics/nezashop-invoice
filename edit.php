@@ -7,7 +7,6 @@ $res="p".date("dmy-h:m:s")."-".rand(0,50);
 $_SESSION['ponumber']=$res;  
  }
 
-  include_once("./config/conn.php");
 ?>
 <div class="container">
 

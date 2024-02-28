@@ -2,8 +2,9 @@
 include_once("./partials/header.php");
 require_once("lib/functions.php");
 if (isset($_SESSION['User'])) {
-  redirect("/uwi/home.php");
+  redirect("home.php");
 }
+
 ?>
 
 <div class="container m-5">

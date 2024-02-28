@@ -1,7 +1,6 @@
 <?php
 ob_start();
 include_once("./partials/header.php");
-include_once("./config/conn.php");
 require_once('lib/functions.php');
 if (!isset($_GET['cid'])) {
     redirect("Products.php");

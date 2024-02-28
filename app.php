@@ -1,5 +1,4 @@
 <?php
-include_once "./config/conn.php";
 require_once("lib/functions.php");
 
 if (isset($_POST['add-customer'])) {
